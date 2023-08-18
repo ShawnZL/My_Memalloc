@@ -605,8 +605,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/shawnzhao/Code/Temp/My_memalloc_C/cmake-build-debug",
-		"source" : "/Users/shawnzhao/Code/Temp/My_memalloc_C"
+		"build" : "/Users/shawnzhao/Code/Temp/My_memalloc/My_memalloc_C/cmake-build-debug",
+		"source" : "/Users/shawnzhao/Code/Temp/My_memalloc/My_memalloc_C"
 	},
 	"version" : 
 	{

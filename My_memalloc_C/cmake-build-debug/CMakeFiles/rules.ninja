@@ -42,7 +42,7 @@ rule C_EXECUTABLE_LINKER__My_memalloc_C_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/shawnzhao/Code/Temp/My_memalloc_C -B/Users/shawnzhao/Code/Temp/My_memalloc_C/cmake-build-debug
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/shawnzhao/Code/Temp/My_memalloc/My_memalloc_C -B/Users/shawnzhao/Code/Temp/My_memalloc/My_memalloc_C/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

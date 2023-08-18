@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/shawnzhao/Code/Temp/My_memalloc_C/cmake-build-debug/
+cmake_ninja_workdir = /Users/shawnzhao/Code/Temp/My_memalloc/My_memalloc_C/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shawnzhao/Code/Temp/My_memalloc_C/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/shawnzhao/Code/Temp/My_memalloc_C -B/Users/shawnzhao/Code/Temp/My_memalloc_C/cmake-build-debug
+  COMMAND = cd /Users/shawnzhao/Code/Temp/My_memalloc/My_memalloc_C/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/shawnzhao/Code/Temp/My_memalloc/My_memalloc_C -B/Users/shawnzhao/Code/Temp/My_memalloc/My_memalloc_C/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -57,7 +57,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shawnzhao/Code/Temp/My_memalloc_C/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shawnzhao/Code/Temp/My_memalloc/My_memalloc_C/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -72,7 +72,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_My_memalloc_C: phony || CMakeFiles/My_memalloc_C.dir
 
-build CMakeFiles/My_memalloc_C.dir/main.c.o: C_COMPILER__My_memalloc_C_Debug /Users/shawnzhao/Code/Temp/My_memalloc_C/main.c || cmake_object_order_depends_target_My_memalloc_C
+build CMakeFiles/My_memalloc_C.dir/main.c.o: C_COMPILER__My_memalloc_C_Debug /Users/shawnzhao/Code/Temp/My_memalloc/My_memalloc_C/main.c || cmake_object_order_depends_target_My_memalloc_C
   DEP_FILE = CMakeFiles/My_memalloc_C.dir/main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/My_memalloc_C.dir
@@ -106,7 +106,7 @@ build My_memalloc_C: C_EXECUTABLE_LINKER__My_memalloc_C_Debug CMakeFiles/My_mema
 # =============================================================================
 
 #############################################
-# Folder: /Users/shawnzhao/Code/Temp/My_memalloc_C/cmake-build-debug
+# Folder: /Users/shawnzhao/Code/Temp/My_memalloc/My_memalloc_C/cmake-build-debug
 
 build all: phony My_memalloc_C
 

@@ -100,7 +100,8 @@ void free(void *block)
            sbrk() with a negative argument decrements the program break.
            So memory is released by the program to OS.
         */
-        sbrk(0 - header->s.size - sizeof(header_t));
+//        sbrk(0 - header->s.size - sizeof(header_t));
+        brk(programbreak - header->s.size - sizeof(header_t));
         /* Note: This lock does not really assure thread
            safety, because sbrk() itself is not really
            thread safe. Suppose there occurs a foregin sbrk(N)

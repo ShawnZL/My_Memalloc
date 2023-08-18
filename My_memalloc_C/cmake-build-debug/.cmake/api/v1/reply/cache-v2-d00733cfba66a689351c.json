@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/shawnzhao/Code/Temp/My_memalloc_C/cmake-build-debug"
+			"value" : "/Users/shawnzhao/Code/Temp/My_memalloc/My_memalloc_C/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -419,7 +419,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/shawnzhao/Code/Temp/My_memalloc_C"
+			"value" : "/Users/shawnzhao/Code/Temp/My_memalloc/My_memalloc_C"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -991,7 +991,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/shawnzhao/Code/Temp/My_memalloc_C/cmake-build-debug"
+			"value" : "/Users/shawnzhao/Code/Temp/My_memalloc/My_memalloc_C/cmake-build-debug"
 		},
 		{
 			"name" : "My_memalloc_C_IS_TOP_LEVEL",
@@ -1015,7 +1015,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/shawnzhao/Code/Temp/My_memalloc_C"
+			"value" : "/Users/shawnzhao/Code/Temp/My_memalloc/My_memalloc_C"
 		}
 	],
 	"kind" : "cache",
